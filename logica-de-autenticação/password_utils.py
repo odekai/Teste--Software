@@ -4,7 +4,7 @@ import string
 def gerar_senha(tamanho=12):
     """gera uma senha forte com letras números e caracteres especiais."""
     if tamanho <8:
-        raise ValueError("o tamanho ,mínimo de senha deve ser 8 caracteres.")
+        raise ValueError("O tamanho mínimo de senha deve ser 8 caracteres.")
     
     caracteres = string.ascii_letters + string.digits + string.punctuation
     

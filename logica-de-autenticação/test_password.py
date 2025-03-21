@@ -1,2 +1,0 @@
-import pytest
-from password_utils import gerar_senha
