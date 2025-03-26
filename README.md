@@ -49,7 +49,7 @@ O sistema pode ser utilizado da seguinte forma:
 
 2. **Validar uma senha**:
    ```python
-   from gerador_senha import validar_senha
+   from password_utils import validar_senha
    
    senha = "Aa1@5678"
    if validar_senha(senha):
