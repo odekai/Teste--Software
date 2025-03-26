@@ -1,0 +1,86 @@
+Claro, vamos montar a estrutura da sua apresentação de forma clara e objetiva, destacando os pontos principais do seu projeto. Uma apresentação eficaz deve ser bem estruturada, fluída e conter informações essenciais, de forma que seja fácil para o público compreender as suas soluções. Aqui vai um esboço que você pode usar como base:
+
+---
+
+### Estrutura da Apresentação
+
+**1. Introdução**
+   - **Objetivo da Apresentação**: "Hoje vou apresentar um sistema de **geração automática de senhas** para o controle de ponto, desenvolvido para resolver o problema de fraudes no registro de horários de trabalho."
+   - **Contexto do Problema**: "Nossa empresa está enfrentando problemas com **funcionários burlando horários de trabalho**, permitindo que outros batam o ponto no lugar deles, o que gera custos adicionais e prejudica o controle do horário de trabalho."
+
+---
+
+**2. Levantamento de Requisitos**
+   - **Problema Identificado**: "A fraude no ponto eletrônico está se tornando um problema recorrente, onde funcionários trocam senhas ou cartões de acesso entre si."
+   - **Solução Proposta**: "A solução proposta é um sistema que **gera uma senha única e temporária** a cada 5 minutos, o que impede que a senha seja passada para outra pessoa, garantindo que apenas o funcionário que gerou a senha possa utilizá-la no seu horário de entrada ou saída."
+   - **Objetivos do Sistema**: 
+     - Impedir fraudes relacionadas ao controle de ponto.
+     - Garantir que os funcionários batam o ponto apenas no horário correto.
+     - Prover um sistema flexível para funcionários com necessidades legítimas (ex: compromissos médicos).
+
+---
+
+**3. Funcionalidades do Sistema**
+   - **Geração de Senhas**: "O sistema gera senhas automaticamente a cada 5 minutos, garantindo que, caso o funcionário passe a senha para outra pessoa, ela se tornará inválida rapidamente."
+   - **Segurança**: "As senhas geradas têm requisitos de complexidade, incluindo caracteres maiúsculos, minúsculos, números e símbolos, para garantir a robustez."
+   - **Flexibilidade**: "A senha não é gerada apenas no final do expediente, permitindo uma janela de tempo razoável para funcionários que necessitam sair por motivos legítimos (compromissos médicos, etc.)."
+   - **Validação de Senha**: "O sistema valida se a senha atendem aos critérios de segurança (mínimo de 8 caracteres, letras, números e símbolos)."
+
+---
+
+**4. Justificativas para as Escolhas**
+   - **Por que não usar biometria**:
+     - "Embora muitas empresas adotem a biometria (impressão digital) como método de autenticação, ela pode não ser a melhor solução para todos os funcionários, pois há condições de saúde e problemas com desgaste natural das digitais que podem dificultar o uso dessa tecnologia."
+     - "Além disso, a biometria exige custos elevados de implementação e manutenção, além de levantar questões de privacidade e segurança de dados sensíveis."
+   - **Por que usar cartões de acesso**:
+     - "Os cartões de acesso são uma solução mais acessível, simples de implementar e muito mais confiável, sem os problemas técnicos que a biometria pode apresentar."
+
+---
+
+**5. Plano de Testes**
+   - **Objetivos dos Testes**: "O sistema será submetido a diferentes tipos de testes para garantir que ele funcione conforme esperado e que os problemas de fraude sejam resolvidos."
+   - **Tipos de Testes**:
+     - **Teste de Unidade**: Testes de funcionalidades individuais, como a geração da senha e validação de requisitos.
+     - **Teste de Integração**: Garantir que o sistema de geração de senhas esteja integrado corretamente ao sistema de controle de ponto.
+     - **Teste de Sistema**: Testar o sistema como um todo, simulando o uso real pelos funcionários.
+     - **Teste de Aceitação**: Testar a aceitação do sistema pelos usuários, garantindo que a solução atenda às necessidades dos funcionários.
+     - **Teste de Regressão**: Verificar se mudanças no sistema não afetaram funcionalidades previamente testadas.
+     - **Teste de Desempenho**: Avaliar o desempenho do sistema em condições de alto uso (caso o sistema tenha muitos funcionários).
+
+---
+
+**6. Demonstração do Sistema**
+   - **Exibição do Sistema**: "Agora, vamos demonstrar como o sistema funciona. Vou gerar uma senha e mostrar como a validação da senha e a limitação de tempo funcionam."
+   - **Execução de um Teste Automatizado**: "Aqui está o código de um dos testes automatizados que criamos para garantir que a senha gerada esteja atendendo aos requisitos de segurança."
+     - *Você pode mostrar um trecho de código em Python (Pytest) que verifica se a senha gerada é válida e atende aos critérios de segurança.*
+
+---
+
+**7. Resultados e Benefícios**
+   - **Redução de Fraudes**: "Ao gerar senhas temporárias a cada 5 minutos, conseguimos impedir que os funcionários compartilhem suas senhas, reduzindo drasticamente as fraudes no controle de ponto."
+   - **Flexibilidade**: "A solução é flexível o suficiente para permitir que funcionários com compromissos legítimos possam sair sem prejuízo, mas também impede abusos."
+   - **Economia de Custos**: "Com a eliminação da necessidade de dispositivos biométricos e sua manutenção, o custo do sistema é significativamente mais baixo."
+   - **Aumento da Confiabilidade**: "O sistema oferece uma solução simples, eficiente e segura, melhorando o controle de ponto e garantindo que a empresa esteja em conformidade com as políticas de horário."
+
+---
+
+**8. Conclusão**
+   - **Resumo**: "Em resumo, nosso sistema de **geração automática de senhas** resolve o problema das fraudes no controle de ponto, é acessível, eficiente e flexível. Ele garante segurança ao mesmo tempo que considera as necessidades legítimas dos funcionários."
+   - **Próximos Passos**: "A próxima fase envolve a implementação real do sistema e a realização de testes com um grupo de funcionários para validar a solução."
+
+---
+
+**9. Perguntas e Discussão**
+   - "Agora, estou à disposição para responder qualquer dúvida ou discutir pontos específicos sobre o sistema."
+
+---
+
+### Dicas para a Apresentação
+- **Use slides limpos e objetivos**: Apenas com o essencial, para evitar sobrecarregar a audiência.
+- **Evite ler o slide**: Foque em explicar os pontos com suas próprias palavras.
+- **Prepare-se para perguntas**: Pense em perguntas que podem surgir (como a questão de flexibilidade e biometria) e tenha respostas prontas.
+- **Se possível, demonstre o código**: Mostrar a implementação pode dar mais credibilidade e tornar sua apresentação mais interativa.
+
+---
+
+Se precisar de ajuda para detalhar algum ponto ou organizar os slides, me avise!
