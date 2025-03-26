@@ -41,7 +41,7 @@ O sistema pode ser utilizado da seguinte forma:
 
 1. **Gerar uma nova senha**:
    ```python
-   from gerador_senha import gerar_senha
+   from passaword_utils import gerar_senha
    
    senha = gerar_senha(12)  # Gera uma senha de 12 caracteres
    print(senha)
