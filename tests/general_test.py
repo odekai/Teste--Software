@@ -32,6 +32,13 @@ def test_validar_senha():
     assert validar_senha("Aa1Y56B8")==False #!senha sem símbolos
 
 
+
+
+    "TESTE DE UNIDADE 1"
+    def test_gerar_senha_tamanho():
+        senha = gerar_senha(12)
+        assert len(senha)== 12
+
     
     
 
