@@ -85,3 +85,6 @@ def test_senha_temporaria():
     time.sleep(2)  # Simula o tempo entre trocas de senha (reduzido para testes)
     senha2 = gerar_senha(12)
     assert senha1 != senha2, "As senhas devem ser diferentes a cada geração"
+
+
+print(gerar_senha())
