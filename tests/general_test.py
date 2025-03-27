@@ -3,6 +3,8 @@ from password_utils import gerar_senha,validar_senha
 import time
 
 
+    #*TESTE DE UNIDADE 1
+  
 def test_gerar_senha():
     senha = gerar_senha(12)
     assert isinstance(senha,str) #*verifica se retorna string
@@ -34,16 +36,17 @@ def test_validar_senha():
 
 
 
-    "TESTE DE UNIDADE 1"
-    def test_gerar_senha_tamanho():
+    
+def test_gerar_senha_tamanho():
         senha = gerar_senha(12)
-        assert len(senha)== 12
+        assert len(senha)== 12 #verifica se a senha gerada tem o tamanho correto
+
 
     
     
 
    
-    "TESTE DE PERFORMANCE"
+    #*TESTE DE PERFORMANCE
 
 def test_performance():
     start_time = time.time()
@@ -56,22 +59,22 @@ def test_performance():
 
   
 
-"Teste de Regressão - Verifica se uma alteração no código não quebrou funcionalidades anteriores"
+#*Teste de Regressão - Verifica se uma alteração no código não quebrou funcionalidades anteriores
 
 def test_regressao():
     senha = gerar_senha(12)
     assert len(senha) == 12
-    assert validar_senha(senha)
+    assert validar_senha(senha) is True
 
 
-" Teste de Integração - Geração e validação da senha juntas"
+#* Teste de Integração - Geração e validação da senha juntas
 def test_geracao_e_validacao():
     senha = gerar_senha(10)
     assert validar_senha(senha), "A senha gerada deve ser válida"
 
 
 
-" Teste de Sistema - Simula um uso real, gerando senhas a cada 5 minutos"
+#*Teste de Sistema - Simula um uso real, gerando senhas a cada 5 minutos"
 def test_senha_temporaria():
     senha1 = gerar_senha(12)
     time.sleep(2)  # Simula o tempo entre trocas de senha (reduzido para testes)

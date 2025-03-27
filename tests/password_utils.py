@@ -40,5 +40,3 @@ def validar_senha(senha):
         
 
     
-senha=gerar_senha(8)
-print(f'{senha}: '+str(validar_senha(senha)))
