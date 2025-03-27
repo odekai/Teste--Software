@@ -1,5 +1,6 @@
 import random
 import string
+import pytest
 
 def gerar_senha(tamanho=12):
     """gera uma senha forte com letras números e caracteres especiais."""

@@ -18,11 +18,16 @@ def test_gerar_senha():
     assert any(c.isdigit()for c in senha)
 
     assert any(c in "!@#%^&*()_+-=[]{}|;:'\",.<>?/"for c in senha) #*deve ter símbolo
-    
 
+
+    
+     #*TESTE DE UNIDADE 2
 def test_gerar_senha_tamanho_minimo():
     with pytest.raises(ValueError,match="O tamanho mínimo de senha deve ser 8 caracteres."):
-        gerar_senha(6)
+       print(gerar_senha(6))
+
+
+   #*TESTE DE UNIDADE 3
 
 def test_validar_senha():
     assert validar_senha("Aa1@5678")==True #*senha forte
