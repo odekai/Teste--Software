@@ -1,6 +1,6 @@
 # Teste--Software
 
-Integrantes: João Vitor, Taila Camargo
+Integrantes: João Vitor e Taila Camargo.
 
 
 # Gerador de Senhas Automáticas para Controle de Ponto
